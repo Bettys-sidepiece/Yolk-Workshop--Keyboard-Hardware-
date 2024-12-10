@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8601DRBR")(type "KiCad")(uri "C:/Users/nx024656/OneDrive - Nexperia/PCB Designs/Raspberry Pi MCU/pico_stroke/Components/symbols/DRV8601DRBR.kicad_sym")(options "")(descr ""))
+  (lib (name "CAP1296-1-AIA-TR")(type "KiCad")(uri "C:/Users/nx024656/OneDrive - Nexperia/PCB Designs/Raspberry Pi MCU/pico_stroke/Components/symbols/CAP1296-1-AIA-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "51281-1298")(type "KiCad")(uri "C:/Users/nx024656/OneDrive - Nexperia/PCB Designs/Raspberry Pi MCU/pico_stroke/Components/symbols/51281-1298.kicad_sym")(options "")(descr ""))
+  (lib (name "Capacitive_sensors")(type "KiCad")(uri "${KIPRJMOD}/Capacitive_sensors.kicad_sym")(options "")(descr ""))
+)

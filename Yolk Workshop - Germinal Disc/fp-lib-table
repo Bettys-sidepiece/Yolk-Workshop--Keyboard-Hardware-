@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "picostroke")(type "KiCad")(uri "${KIPRJMOD}/Components/picostroke.pretty")(options "")(descr ""))
+  (lib (name "pico_bldc")(type "KiCad")(uri "C:/Users/nx024656/OneDrive - Nexperia/PCB Designs/Raspberry Pi MCU/Pico_BLDC_Controller/Pico_BLDC_Components/pico_bldc.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/Components/keyswitches.pretty")(options "")(descr ""))
+)

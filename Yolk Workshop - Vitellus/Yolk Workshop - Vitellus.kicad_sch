@@ -1,0 +1,1054 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70641d1d-bfb0-4aaa-b5de-9843f906b606")
+	(paper "A4")
+	(title_block
+		(title "System Block Diagram")
+		(date "2024-11-29")
+		(rev "B")
+		(company "Yolk Workshop")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0648da1b-7816-47c6-9f4a-5db3ff926a50")
+	)
+	(bus
+		(pts
+			(xy 180.34 87.63) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29745be9-9941-4389-9cec-08f7786c05be")
+	)
+	(wire
+		(pts
+			(xy 100.965 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b71c610-6398-49d2-82bc-d04d5b1d2598")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bd6053-5a1b-4c77-a99a-be65b998f750")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd7ecba-b69b-4df9-8f17-5ea6b09457e5")
+	)
+	(wire
+		(pts
+			(xy 100.965 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465f4cfc-8624-48b1-a586-0f27a0143346")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.3) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5947d624-34b2-4cee-90a7-a3de55f44273")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fa6ac5-c2a4-4e22-8e08-8eec3a97c498")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9218498a-4959-4fd7-81ad-c5e144aa2e01")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bc6310-2208-4bfd-a12c-19621052a0bd")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65d0dce-00a5-4931-83b7-bd833e26cf72")
+	)
+	(wire
+		(pts
+			(xy 100.965 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1273db6-7862-4ba0-9d38-3dfdc24b7139")
+	)
+	(bus
+		(pts
+			(xy 180.34 91.44) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a54f6d-224c-4f6a-ad47-3b6b8620698e")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f710d60c-51e7-4c62-8361-b16707ce1f71")
+	)
+	(wire
+		(pts
+			(xy 180.34 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf7699c-2fb7-491f-a7b7-7e9096af746e")
+	)
+	(rectangle
+		(start 71.12 41.91)
+		(end 240.03 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7029b439-5da3-48df-8de6-909710f2d3de)
+	)
+	(text "Yolk Workshop"
+		(exclude_from_sim no)
+		(at 105.156 38.608 0)
+		(effects
+			(font
+				(face "Parkinsans Light")
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "077affba-0cdc-443a-b04c-58ed8dbca1a6")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cfa79b5-6cb9-4938-b974-85fdcddaa341")
+		(property "Reference" "H2"
+			(at 182.88 173.9899 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 176.5299 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 180.34 175.26 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 175.26 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 175.26 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.96 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d09af5-a144-47ee-b6b9-463e8cc769e5")
+		(property "Reference" "H3"
+			(at 190.5 170.1799 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 190.5 172.7199 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 187.96 171.45 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 171.45 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.96 171.45 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb8bfbc-4d8c-4ad3-aae4-cda1c0d770a0")
+		(property "Reference" "H1"
+			(at 182.88 167.6399 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 170.1799 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 180.34 168.91 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 168.91 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 168.91 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 55.88)
+		(size 12.7 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 72 1)
+		)
+		(fill
+			(color 72 0 72 1.0000)
+		)
+		(uuid "273378ee-f5ee-4372-a93b-16724f710105")
+		(property "Sheetname" "Power Supply"
+			(at 203.454 55.118 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 208.28 69.1646 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BMS_SDA" bidirectional
+			(at 208.28 64.77 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "b3ca4471-b110-4ee8-bf8e-75d7d7e17cdd")
+		)
+		(pin "BMS_ALRT" output
+			(at 208.28 59.69 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "711e11ea-c480-4acb-b791-af72493e755e")
+		)
+		(pin "BMS_SCL" input
+			(at 208.28 62.23 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "9b4bd439-cb69-49e5-8897-c59862781766")
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 68.58)
+		(size 15.875 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 221 133 0 1)
+		)
+		(fill
+			(color 221 133 0 1.0000)
+		)
+		(uuid "969c0764-0844-4bc9-9443-cf383a941ba9")
+		(property "Sheetname" "USB Connector"
+			(at 78.994 68.072 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 85.09 79.3246 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VBUS_DET" output
+			(at 100.965 71.12 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "63069907-c52d-44a3-bbb7-2ebc77522226")
+		)
+		(pin "USB_D+" bidirectional
+			(at 100.965 73.66 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "3b36f1fa-9489-4e9a-bc33-983f683480a9")
+		)
+		(pin "USB_D-" bidirectional
+			(at 100.965 76.2 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "f4431939-f8db-4c7b-b5cc-be97391d94f3")
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 85.09)
+		(size 27.94 35.56)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 194 0 1)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "b74294b8-4461-4468-b138-10eeefb97056")
+		(property "Sheetname" "Board Connector"
+			(at 197.612 84.328 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPC.kicad_sch"
+			(at 199.39 116.7896 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LMAT_SDA" bidirectional
+			(at 199.39 106.68 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "f115b11d-1a4e-4fd3-9955-06297ba57600")
+		)
+		(pin "LMAT_SCL" input
+			(at 199.39 110.49 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "c24c4aae-4cff-4910-9f45-6179de6548d5")
+		)
+		(pin "LMAT_INT" output
+			(at 199.39 102.87 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "6f06aace-1e3a-4d4a-98eb-c7e816f218d9")
+		)
+		(pin "LMAT_SDB" output
+			(at 199.39 99.06 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "30f27281-dc43-4960-bbb9-1472b3ff34ec")
+		)
+		(pin "LMAT_RST" input
+			(at 199.39 95.25 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "725a1c39-f0d4-4f00-966a-f33f54c514fe")
+		)
+		(pin "AMB_I2C_INT" output
+			(at 199.39 114.3 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "493c40ee-979d-445c-9bf4-b2bb582fc74a")
+		)
+		(pin "R[0..5]" input
+			(at 199.39 91.44 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "faebbbe4-735b-442b-a67c-9fd68e6b3ad2")
+		)
+		(pin "C[0..13]" output
+			(at 199.39 87.63 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "bb0d9ce1-38da-4bf6-b3ac-ed1fa2231743")
+		)
+		(pin "PROX_I2C_INT" output
+			(at 199.39 118.11 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "b4c8750c-39f9-47c6-878d-36a7e47e3c0e")
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 55.245)
+		(size 67.31 66.04)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(color 194 0 0 1.0000)
+		)
+		(uuid "de0d3f16-74a4-4893-8ca7-12ffbc379691")
+		(property "Sheetname" "Controller"
+			(at 136.144 54.864 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 113.03 118.0596 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 113.03 76.2 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "ba8503cf-18b6-4696-988a-a425bf57af35")
+		)
+		(pin "USB_D+" bidirectional
+			(at 113.03 73.66 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "0502cfa3-321d-4201-891a-bba99cf3e761")
+		)
+		(pin "C[0..13]" input
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "22ebcb0a-7fcc-4dc9-8506-25216c16d91c")
+		)
+		(pin "R[0..5]" output
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "5fd5ca89-34b3-4a7d-897c-39e2a7ee7973")
+		)
+		(pin "VBUS_DET" input
+			(at 113.03 71.12 180)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+			(uuid "344b5599-5c7a-49d3-a3fe-4c1c3b86509b")
+		)
+		(pin "LMAT_RST" output
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "a71ec113-6091-4217-a20b-3210866d75e2")
+		)
+		(pin "LMAT_SDB" output
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "c32bea52-fd74-48e7-add0-6351dca45ea0")
+		)
+		(pin "BMS_ALRT" input
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "313d0f3c-f3e8-4730-8ced-585b65f25a85")
+		)
+		(pin "LMAT_INT" input
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "c3cd046d-ce22-4ec1-8764-1a66bb30df9e")
+		)
+		(pin "BMS_SCL" output
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "a72b4c35-240b-4fd4-b1e7-3a37d305ed46")
+		)
+		(pin "BMS_SDA" bidirectional
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "5d04ecce-a6a5-4967-a68e-7aec14bcdfa9")
+		)
+		(pin "LMAT_SDA" bidirectional
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "2f84fe6b-c5f1-4a57-8be7-a46f27e8369d")
+		)
+		(pin "LMAT_SCL" output
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "a75cbf46-92b4-47f9-9233-4a5b60c3db0e")
+		)
+		(pin "AMB_I2C_INT" input
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "17f5eb3a-faca-42d1-90fe-697451625e11")
+		)
+		(pin "PROX_I2C_INT" input
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+					(bold yes)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+			(uuid "9e431e06-e279-47a3-8eb6-816a0dbc5c7c")
+		)
+		(instances
+			(project "pico_stroke_controller_STM32L072"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
