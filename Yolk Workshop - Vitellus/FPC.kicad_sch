@@ -4,7 +4,116 @@
 	(generator_version "8.0")
 	(uuid "ba330b05-1055-4da7-93c3-140e302a0ba1")
 	(paper "A5" portrait)
+	(title_block
+		(date "2025-02-08")
+		(rev "2")
+		(company "Yolk Workshop")
+		(comment 1 "Designed By K Mumba")
+		(comment 2 "Conceptualised and Design in Zambia")
+	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "FFC2B35-50-G_REVA2:FFC2B35-50-G_REVA2"
 			(pin_names
 				(offset 1.016)
@@ -1464,10 +1573,40 @@
 		(uuid "41301ada-3e5a-4e51-b31d-c7af46db8f10")
 	)
 	(junction
+		(at 74.93 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f79f203-8317-4ee9-8d51-56a72e517ea2")
+	)
+	(junction
+		(at 71.12 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e94ea01-9f85-4ac4-a523-935f0c3f4576")
+	)
+	(junction
+		(at 74.93 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "741c66e5-f3ac-48d4-afa1-3f6ee90dcd46")
+	)
+	(junction
 		(at 85.09 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18b54b1-3d5f-4f48-b80f-9e861178ac46")
+	)
+	(junction
+		(at 71.12 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5b0d9c3-9ec0-4967-9a77-9a0e748bee87")
+	)
+	(junction
+		(at 74.93 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2a76f3-ca88-4f5b-90b2-881b07ef9ba0")
 	)
 	(junction
 		(at 85.09 25.4)
@@ -1666,6 +1805,16 @@
 		)
 		(uuid "0557b455-219a-4e9c-9d6d-29f809cc4056")
 	)
+	(wire
+		(pts
+			(xy 62.23 151.13) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aee792b-16d1-4d6c-9ca1-dab387a05f04")
+	)
 	(bus
 		(pts
 			(xy 66.04 116.84) (xy 66.04 114.3)
@@ -1682,8 +1831,9 @@
 			(xy 85.09 48.26) (xy 86.36 48.26)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "0b64b754-fdfe-4c85-b1da-d2dc4b832a3d")
 	)
@@ -1697,16 +1847,6 @@
 		)
 		(uuid "0f87ba80-0c4e-4ed6-96b3-d6e7029ed17f")
 	)
-	(wire
-		(pts
-			(xy 73.66 144.78) (xy 86.36 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12051781-7a3c-4289-9848-0956cedd03d4")
-	)
 	(bus
 		(pts
 			(xy 66.04 58.42) (xy 66.04 63.5)
@@ -1717,6 +1857,16 @@
 			(color 223 134 255 1)
 		)
 		(uuid "17e162b8-00b0-4915-bfc1-a1b928e1022a")
+	)
+	(wire
+		(pts
+			(xy 74.93 133.35) (xy 74.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3f9546-d465-4fa0-9073-f9a7e2f567f9")
 	)
 	(wire
 		(pts
@@ -1743,8 +1893,9 @@
 			(xy 76.2 43.18) (xy 85.09 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "23b7e356-0d96-48af-882e-07664fef7733")
 	)
@@ -1794,8 +1945,9 @@
 			(xy 85.09 45.72) (xy 86.36 45.72)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "365c35c1-db52-414a-ae96-d694b5915832")
 	)
@@ -1862,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 127) (xy 86.36 127)
+			(xy 72.39 127) (xy 74.93 127)
 		)
 		(stroke
 			(width 0)
@@ -1928,8 +2080,9 @@
 			(xy 76.2 41.91) (xy 76.2 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "59bf6db9-c6db-427d-9ac0-60100c5806a0")
 	)
@@ -1938,8 +2091,9 @@
 			(xy 85.09 40.64) (xy 86.36 40.64)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "5b49a477-4e2f-4e06-9ea4-3b1b69e03cd2")
 	)
@@ -1955,11 +2109,22 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 86.36 43.18)
+			(xy 62.23 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
+		)
+		(uuid "630a140d-5331-4d49-b725-2022c95e9b28")
+	)
+	(wire
+		(pts
+			(xy 85.09 43.18) (xy 86.36 43.18)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "66d911d8-7914-4441-92f9-9b129124078e")
 	)
@@ -1968,8 +2133,9 @@
 			(xy 85.09 43.18) (xy 85.09 40.64)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "683ed69e-7480-49e4-a8cb-f2d72cc5a760")
 	)
@@ -2016,6 +2182,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 149.86) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ee2291-8e50-4436-8854-7ac1bb13fadd")
+	)
+	(wire
+		(pts
 			(xy 85.09 33.02) (xy 86.36 33.02)
 		)
 		(stroke
@@ -2036,7 +2212,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 132.08) (xy 86.36 132.08)
+			(xy 74.93 137.16) (xy 74.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7848a109-0828-4274-9aff-2edcd0b2d43b")
+	)
+	(wire
+		(pts
+			(xy 72.39 132.08) (xy 74.93 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2063,6 +2249,26 @@
 			(type default)
 		)
 		(uuid "7a28437a-9c0a-457c-b143-363c6d5f0ecf")
+	)
+	(wire
+		(pts
+			(xy 74.93 132.08) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1e123d-1ec9-403f-8c78-4ed7d2d6586b")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7deb5f9f-b7bb-44e5-9497-99d518b40554")
 	)
 	(polyline
 		(pts
@@ -2096,7 +2302,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 147.32) (xy 86.36 147.32)
+			(xy 72.39 144.78) (xy 86.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8607c140-72a8-4bcb-8806-68c8d6e0fec8")
+	)
+	(wire
+		(pts
+			(xy 72.39 139.7) (xy 86.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2209,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 137.16) (xy 86.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5a2cf0-3541-46ac-bb79-2a7dfcce6a45")
+	)
+	(wire
+		(pts
 			(xy 68.58 83.82) (xy 86.36 83.82)
 		)
 		(stroke
@@ -2222,8 +2448,9 @@
 			(xy 85.09 45.72) (xy 85.09 48.26)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "9e5b0644-3c80-404f-9234-1897d48d6468")
 	)
@@ -2246,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "a181514c-6a0f-46c0-a5b8-a3e7b6799d3e")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60dd7b8-da40-484f-b707-6eef0f0b6b94")
 	)
 	(bus
 		(pts
@@ -2270,21 +2507,32 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 86.36 139.7)
+			(xy 62.23 133.35) (xy 74.93 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae75130a-0ba0-4347-93f1-9a5daf18cc8a")
+		(uuid "ab0fa91b-9c64-48cf-b099-602e153f8626")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add1abb7-b1ea-4c59-b145-388c2eeb0b08")
 	)
 	(wire
 		(pts
 			(xy 76.2 45.72) (xy 85.09 45.72)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "b1b0e1f8-c548-428e-9566-91e5eb961e5e")
 	)
@@ -2300,13 +2548,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 137.16) (xy 86.36 137.16)
+			(xy 62.23 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd812322-8745-4603-a4ff-6fb8e8924ad6")
+	)
+	(wire
+		(pts
+			(xy 69.85 147.32) (xy 71.12 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c070e214-0c6c-4e3e-a836-97a348c52764")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0827ad4-48fd-4861-b0c0-1c994e557a8e")
 	)
 	(bus
 		(pts
@@ -2353,6 +2621,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 142.24) (xy 86.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdfe8bf-9da8-4c0c-a0b0-f03a9c1b394e")
+	)
+	(wire
+		(pts
 			(xy 68.58 121.92) (xy 86.36 121.92)
 		)
 		(stroke
@@ -2374,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60749b5-c127-4d34-ab72-7dede4e1955d")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 86.36 50.8)
 		)
 		(stroke
@@ -2392,6 +2680,26 @@
 			(color 255 114 145 1)
 		)
 		(uuid "ded57b7e-a63f-42e8-8c4e-c31c269b3709")
+	)
+	(wire
+		(pts
+			(xy 71.12 151.13) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08152cb-052b-4c78-930a-688876abcb6a")
+	)
+	(wire
+		(pts
+			(xy 74.93 125.73) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e582d9c3-2649-4c12-9b72-a7ce82d39a0e")
 	)
 	(bus
 		(pts
@@ -2427,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 86.36 142.24)
+			(xy 72.39 135.89) (xy 74.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2479,21 +2787,8 @@
 		)
 		(uuid "9a1fc1ad-eed7-4872-88fc-41ecc672bdad")
 	)
-	(label "AMB_I2C_INT"
-		(at 74.93 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Parkinsans Light")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07129a3f-4513-43b3-9573-0040b8a8dac4")
-	)
 	(label "R5"
 		(at 78.74 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2505,7 +2800,6 @@
 	)
 	(label "C12"
 		(at 78.74 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2517,7 +2811,6 @@
 	)
 	(label "C6"
 		(at 78.74 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2527,9 +2820,19 @@
 		)
 		(uuid "1c97d9c2-b968-4063-8137-f545ca850788")
 	)
+	(label "PS_VER"
+		(at 85.09 149.86 180)
+		(effects
+			(font
+				(face "Parkinsans Light")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39800de8-e258-42b4-837b-b90828438698")
+	)
 	(label "C10"
 		(at 78.74 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2541,7 +2844,6 @@
 	)
 	(label "C7"
 		(at 78.74 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2552,8 +2854,7 @@
 		(uuid "59e8ea89-a11b-44c7-b393-a84c588813e2")
 	)
 	(label "PROX_I2C_INT"
-		(at 86.36 147.32 180)
-		(fields_autoplaced yes)
+		(at 86.36 139.7 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2565,7 +2866,6 @@
 	)
 	(label "R4"
 		(at 78.74 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2577,7 +2877,6 @@
 	)
 	(label "R0"
 		(at 78.74 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2589,7 +2888,6 @@
 	)
 	(label "R1"
 		(at 78.74 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2601,7 +2899,6 @@
 	)
 	(label "C0"
 		(at 78.74 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2613,7 +2910,6 @@
 	)
 	(label "C4"
 		(at 78.74 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2625,7 +2921,6 @@
 	)
 	(label "C5"
 		(at 78.74 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2637,7 +2932,6 @@
 	)
 	(label "C9"
 		(at 78.74 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2649,7 +2943,6 @@
 	)
 	(label "C13"
 		(at 78.74 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2661,7 +2954,6 @@
 	)
 	(label "R3"
 		(at 78.74 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2673,7 +2965,6 @@
 	)
 	(label "C11"
 		(at 78.74 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2685,7 +2976,6 @@
 	)
 	(label "R2"
 		(at 78.74 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2697,7 +2987,6 @@
 	)
 	(label "C3"
 		(at 78.74 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2709,7 +2998,6 @@
 	)
 	(label "C2"
 		(at 78.74 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2719,9 +3007,19 @@
 		)
 		(uuid "cefbb475-97dc-4890-b961-7339c1aa7f3e")
 	)
+	(label "KB_VER"
+		(at 85.09 147.32 180)
+		(effects
+			(font
+				(face "Parkinsans Light")
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de312e2e-46ca-4e9e-af2f-0dfe1fbe9854")
+	)
 	(label "C1"
 		(at 78.74 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2733,7 +3031,6 @@
 	)
 	(label "C8"
 		(at 78.74 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2745,8 +3042,7 @@
 	)
 	(hierarchical_label "PROX_I2C_INT"
 		(shape output)
-		(at 73.66 147.32 180)
-		(fields_autoplaced yes)
+		(at 72.39 139.7 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2759,8 +3055,7 @@
 	)
 	(hierarchical_label "LMAT_SCL"
 		(shape output)
-		(at 43.18 127 180)
-		(fields_autoplaced yes)
+		(at 72.39 127 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2774,7 +3069,6 @@
 	(hierarchical_label "C[0..13]"
 		(shape input)
 		(at 64.77 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2787,24 +3081,9 @@
 		)
 		(uuid "1bf1c2c9-e135-424a-bdbc-a50f1ab165e0")
 	)
-	(hierarchical_label "LMAT_RST"
-		(shape output)
-		(at 73.66 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Parkinsans Light")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "32279972-5fd6-443e-a1a6-040f6e746437")
-	)
 	(hierarchical_label "LMAT_SDA"
 		(shape bidirectional)
-		(at 43.18 132.08 180)
-		(fields_autoplaced yes)
+		(at 72.39 132.08 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2815,10 +3094,9 @@
 		)
 		(uuid "491538f5-07fd-44a1-8397-1af3afa9d02e")
 	)
-	(hierarchical_label "AMB_I2C_INT"
+	(hierarchical_label "PS_VER"
 		(shape output)
-		(at 73.66 144.78 180)
-		(fields_autoplaced yes)
+		(at 69.85 149.86 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2827,12 +3105,24 @@
 			)
 			(justify right)
 		)
-		(uuid "87a49882-789a-42e2-b1e2-d929713416be")
+		(uuid "54d33546-0022-4243-adfa-c2a796c45eea")
+	)
+	(hierarchical_label "PWR_SW_B"
+		(shape input)
+		(at 72.39 142.24 180)
+		(effects
+			(font
+				(face "Parkinsans Light")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "8fe2a75e-8872-452c-a30b-f1c733db8984")
 	)
 	(hierarchical_label "R[0..5]"
 		(shape output)
 		(at 63.5 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2845,10 +3135,22 @@
 		)
 		(uuid "ada19802-4911-4ee8-82a4-158f98e8f2c1")
 	)
+	(hierarchical_label "PWR_SW_A"
+		(shape input)
+		(at 72.39 144.78 180)
+		(effects
+			(font
+				(face "Parkinsans Light")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d8831d9b-76b8-4fda-b40a-fab83799b21d")
+	)
 	(hierarchical_label "LMAT_SDB"
 		(shape output)
-		(at 73.66 142.24 180)
-		(fields_autoplaced yes)
+		(at 72.39 135.89 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2859,10 +3161,9 @@
 		)
 		(uuid "f7700138-7502-4b21-9a0b-665c1566ee79")
 	)
-	(hierarchical_label "LMAT_INT"
-		(shape input)
-		(at 73.66 137.16 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "KB_VER"
+		(shape output)
+		(at 69.85 147.32 180)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -2872,6 +3173,282 @@
 			(justify right)
 		)
 		(uuid "ff76efd0-fc8b-4651-b226-2d41c420ff5d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24493905-80e1-4278-bb3f-a16e4869c47f")
+		(property "Reference" "#PWR050"
+			(at 80.01 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f80a7f8a-716b-42b2-95e2-859795177b52")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a976ab3-b796-41dd-b451-f9768fafa587")
+		(property "Reference" "TP13"
+			(at 57.15 125.73 90)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.1979 123.19 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 125.73 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29cdb65c-94d5-4b19-b311-d492717fcd03")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f858d82-7139-45d0-95af-383fca44ca07")
+		(property "Reference" "TP12"
+			(at 56.388 151.13 90)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.1979 148.59 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cddcefe-340f-430e-95de-512f32261694")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3084,6 +3661,210 @@
 			(project "pico_stroke_controller"
 				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69e4389f-80d7-48ca-8fed-6326da3cff7b")
+		(property "Reference" "TP14"
+			(at 56.896 133.35 90)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.1979 130.81 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7cf9b0-090c-413f-bf32-8c5027b22f8b")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e2db5ac-316a-40cf-b07f-bb4819994048")
+		(property "Reference" "TP15"
+			(at 56.896 137.16 90)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.1979 134.62 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1871c2f5-2f2d-4d26-b308-53203572d1aa")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -3889,7 +4670,7 @@
 		(dnp no)
 		(uuid "bc393005-d228-479d-9776-f13eb3f85267")
 		(property "Reference" "J6"
-			(at 86.106 155.194 0)
+			(at 91.44 154.178 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3899,7 +4680,7 @@
 			)
 		)
 		(property "Value" "FFC2B35-50-G_REVA2"
-			(at 86.106 157.734 0)
+			(at 91.694 156.718 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4242,6 +5023,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9dd4ae1-39a8-4a79-ace1-65e68b3958cb")
+		(property "Reference" "TP11"
+			(at 56.896 146.05 90)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.1979 143.51 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(face "Parkinsans Light")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "538534bf-7d7d-4cca-890e-522eec637aa4")
+		)
+		(instances
+			(project "Yolk Workshop - Vitellus"
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 76.2 24.13 0)
 		(unit 1)
@@ -4306,150 +5189,6 @@
 			(project "pico_stroke_controller"
 				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f26bc8ec-c202-4fcc-b097-40af5017829b")
-		(property "Reference" "#PWR096"
-			(at 80.01 134.62 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 134.62 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 134.62 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 134.62 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 134.62 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "746ca06b-2c11-4e07-a646-57fc6b8eab36")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3736309-ec37-45ea-9581-61a2add93dc6")
-		(property "Reference" "#PWR097"
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 149.86 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 149.86 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08ba748e-4269-456b-8932-ec6925bc68a9")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/b74294b8-4461-4468-b138-10eeefb97056"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)

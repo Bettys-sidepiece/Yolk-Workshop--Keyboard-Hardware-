@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "1e2626e4-5dbd-494f-8481-6b3a1c418a13")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(date "2025-02-08")
+		(rev "2")
+		(company "Yolk Workshop")
+		(comment 1 "Designed By K Mumba")
+		(comment 2 "Conceptualised and Design in Zambia")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -933,141 +940,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1842,421 +1714,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:VN10LF"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VN10LF"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/VN10LF.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VN10LF_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VN10LF_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2475,118 +1932,82 @@
 		)
 	)
 	(junction
-		(at 200.66 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "011c3f18-a79f-4c11-b7f3-16d753678dfb")
-	)
-	(junction
-		(at 167.64 77.47)
+		(at 128.27 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "023cb529-fdc5-4c6c-a157-776d93ce035a")
 	)
 	(junction
-		(at 93.98 118.11)
+		(at 54.61 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08c579b8-b688-480c-86ab-993e98814b08")
 	)
 	(junction
-		(at 209.55 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a947465-68e1-4b24-a540-33cd79ad1c18")
-	)
-	(junction
-		(at 109.22 90.17)
+		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "463802fb-32cb-4af4-86dc-ad8f1755009c")
 	)
 	(junction
-		(at 187.96 77.47)
+		(at 148.59 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e6f365-b10a-4977-a774-73ddbb826788")
 	)
 	(junction
-		(at 200.66 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b80f51a-0e10-4c58-9e79-ca9f15b150a0")
-	)
-	(junction
-		(at 149.86 77.47)
+		(at 110.49 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e0a5dfb-5978-464f-bc65-25706eccf4f5")
 	)
 	(junction
-		(at 207.01 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "591b1b0a-6880-42a7-87af-8f7a3b660fb6")
-	)
-	(junction
-		(at 200.66 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77d7b41a-6ee2-4574-bd6a-9e2009837103")
-	)
-	(junction
-		(at 109.22 92.71)
+		(at 69.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8345811f-50b7-4f93-a40e-0c3c044c03ba")
 	)
 	(junction
-		(at 109.22 97.79)
+		(at 69.85 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9454f991-8d9e-428a-a36c-fa6a95d9d5e9")
 	)
 	(junction
-		(at 177.8 86.36)
+		(at 138.43 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97b44221-a3cc-4921-9df8-c69051e57887")
 	)
 	(junction
-		(at 123.19 83.82)
+		(at 83.82 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16fbaea-22bf-4833-8351-dfc2c1e8b0a0")
 	)
 	(junction
-		(at 109.22 95.25)
+		(at 69.85 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af340209-aa3e-43d2-b0bc-081147b8bd21")
 	)
 	(junction
-		(at 195.58 77.47)
+		(at 156.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ff22af-44a4-45ea-9634-857181db0bfb")
 	)
-	(junction
-		(at 200.66 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d61857cb-fbb2-47cd-b505-0d9bbb663669")
-	)
 	(no_connect
-		(at 109.22 105.41)
+		(at 69.85 68.58)
 		(uuid "e7aca93d-2b8d-4b83-850b-427fb1fb9127")
 	)
 	(no_connect
-		(at 109.22 107.95)
+		(at 69.85 71.12)
 		(uuid "fa231a60-c7b2-4950-84eb-7fe556f0c7bc")
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 201.93 77.47)
+			(xy 156.21 40.64) (xy 162.56 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2597,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 166.37 92.71)
+			(xy 115.57 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 115.57 82.55)
+			(xy 69.85 45.72) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 123.19 83.82)
+			(xy 83.82 48.26) (xy 83.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 195.58 77.47)
+			(xy 148.59 40.64) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2638,18 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 200.66 97.79)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "15fd57ca-f0bf-45b4-b912-5d1978aaf756")
-	)
-	(wire
-		(pts
-			(xy 86.36 115.57) (xy 86.36 118.11)
+			(xy 46.99 78.74) (xy 46.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2659,17 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 220.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2399ae3a-e69c-42bf-b978-24c5ea288b25")
-	)
-	(wire
-		(pts
-			(xy 93.98 118.11) (xy 93.98 121.92)
+			(xy 54.61 81.28) (xy 54.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 166.37 95.25)
+			(xy 115.57 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 123.19 83.82)
+			(xy 83.82 45.72) (xy 83.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2699,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 115.57) (xy 93.98 118.11)
+			(xy 54.61 78.74) (xy 54.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 123.19 83.82)
+			(xy 85.09 46.99) (xy 83.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2719,18 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 200.66 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "4689f99d-1983-411c-b493-21c10d8c7c76")
-	)
-	(wire
-		(pts
-			(xy 110.49 90.17) (xy 109.22 90.17)
+			(xy 71.12 53.34) (xy 69.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2740,18 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 96.52) (xy 196.85 97.79)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "4d12c054-e99c-426e-a38a-410f05e35b58")
-	)
-	(wire
-		(pts
-			(xy 149.86 77.47) (xy 167.64 77.47)
+			(xy 110.49 40.64) (xy 128.27 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2762,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 78.74)
+			(xy 128.27 40.64) (xy 128.27 41.91)
 		)
 		(stroke
 			(width 0.254)
@@ -2773,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 123.19 85.09)
+			(xy 81.28 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2783,17 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 209.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e7521d-92c4-435d-a5cb-c38379287116")
-	)
-	(wire
-		(pts
-			(xy 120.65 82.55) (xy 123.19 82.55)
+			(xy 81.28 45.72) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2803,17 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 102.87) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a56d6b-05b5-4a61-91e3-90f265464a77")
-	)
-	(wire
-		(pts
-			(xy 195.58 74.93) (xy 195.58 77.47)
+			(xy 156.21 38.1) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2824,59 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 105.41) (xy 207.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab09808-1a83-442f-a4d8-e06082ae3b92")
-	)
-	(wire
-		(pts
-			(xy 200.66 105.41) (xy 207.01 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc61e7f-56cb-43dd-977a-a657ac3256aa")
-	)
-	(wire
-		(pts
-			(xy 200.66 96.52) (xy 196.85 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "7b9f442b-e427-4a87-b1c1-80451e075f00")
-	)
-	(wire
-		(pts
-			(xy 195.58 77.47) (xy 200.66 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "7d895faf-968d-49a1-af31-6af95eb14692")
-	)
-	(wire
-		(pts
-			(xy 196.85 102.87) (xy 196.85 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80753f9d-f675-4f77-bb2a-17b7a5667d34")
-	)
-	(wire
-		(pts
-			(xy 167.64 77.47) (xy 168.91 77.47)
+			(xy 128.27 40.64) (xy 129.54 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2887,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 167.64 86.36)
+			(xy 138.43 49.53) (xy 128.27 49.53)
 		)
 		(stroke
 			(width 0.254)
@@ -2898,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 77.47) (xy 149.86 87.63)
+			(xy 110.49 40.64) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0.254)
@@ -2909,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 149.86 101.6)
+			(xy 110.49 63.5) (xy 110.49 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2919,17 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 105.41) (xy 209.55 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936b3796-b340-4f70-ac16-6a01c37383fb")
-	)
-	(wire
-		(pts
-			(xy 109.22 92.71) (xy 144.78 92.71)
+			(xy 69.85 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2939,18 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "a6b0d59b-50e8-4130-904e-ea3e02b86fdc")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 177.8 86.36)
+			(xy 148.59 49.53) (xy 138.43 49.53)
 		)
 		(stroke
 			(width 0.254)
@@ -2961,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 124.46 83.82)
+			(xy 85.09 48.26) (xy 85.09 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 149.86 77.47)
+			(xy 69.85 40.64) (xy 110.49 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -2982,17 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 200.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c991e2d5-5825-451f-9be1-3d0e0b2e0916")
-	)
-	(wire
-		(pts
-			(xy 92.71 118.11) (xy 93.98 118.11)
+			(xy 53.34 81.28) (xy 54.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 95.25) (xy 109.22 97.79)
+			(xy 69.85 58.42) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 115.57 85.09)
+			(xy 69.85 48.26) (xy 76.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 109.22 97.79)
+			(xy 71.12 60.96) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 87.63 118.11)
+			(xy 46.99 81.28) (xy 48.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 187.96 78.74)
+			(xy 148.59 40.64) (xy 148.59 41.91)
 		)
 		(stroke
 			(width 0.254)
@@ -3053,28 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 209.55 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c62a8f-6aa2-4a7b-b79c-30fc1ece02db")
-	)
-	(wire
-		(pts
-			(xy 200.66 77.47) (xy 200.66 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "ddb2cf77-9b2c-4d0b-a798-e28d868b9006")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 144.78 95.25)
+			(xy 69.85 58.42) (xy 105.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 177.8 87.63)
+			(xy 138.43 49.53) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0.254)
@@ -3095,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 77.47) (xy 187.96 77.47)
+			(xy 147.32 40.64) (xy 148.59 40.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3106,17 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c93532-c341-4245-936e-f3b1167e539a")
-	)
-	(wire
-		(pts
-			(xy 109.22 90.17) (xy 109.22 92.71)
+			(xy 69.85 53.34) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +2370,7 @@
 	)
 	(text_box "VBUS Specifications [Fuse]\n\n- I_{Hold} := 500mA\n- I_{Trip} := 1000mA\n- R_{Fuse} := ~150mOhm_{[Min]}\n- P_{Fuse} := ~37.5mW_{[Min]}"
 		(exclude_from_sim no)
-		(at 151.13 105.41 0)
+		(at 49.53 93.98 0)
 		(size 31.75 13.97)
 		(stroke
 			(width 0)
@@ -3146,7 +2390,7 @@
 	)
 	(text_box "PCB Specfications:\nTrace Width := 0.1509mm\nTrace Spacing := 0.375mm\n\nVia Drill Hole := 0.254mm\nVia Spacing := 1.524 mm\n\nOpt:\nRef Plane Opening [H] := 1.016mm\nRef Plane Opening [W] := 1.575mm"
 		(exclude_from_sim no)
-		(at 236.22 76.2 0)
+		(at 16.51 110.49 0)
 		(size 40.64 22.86)
 		(stroke
 			(width 0)
@@ -3166,7 +2410,7 @@
 	)
 	(text_box "USB Specification [RP2350]\n\n- USB Full Speed [USB 1.1]\n- 5V VBUS\n- 500mA Max Current\n- 2.5W P_{MAX}"
 		(exclude_from_sim no)
-		(at 118.11 105.41 0)
+		(at 16.51 93.98 0)
 		(size 31.75 13.97)
 		(stroke
 			(width 0)
@@ -3186,7 +2430,7 @@
 	)
 	(text "USB Connector"
 		(exclude_from_sim no)
-		(at 76.2 52.324 0)
+		(at 100.076 26.162 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3197,8 +2441,7 @@
 		(uuid "a24d0227-a27f-48bf-81e5-3647989ace62")
 	)
 	(label "CC1"
-		(at 110.49 82.55 0)
-		(fields_autoplaced yes)
+		(at 71.12 45.72 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3209,8 +2452,7 @@
 		(uuid "18c7b5d9-b7a4-4fc7-bfe4-c073c2b12a27")
 	)
 	(label "USB_D-"
-		(at 158.75 92.71 0)
-		(fields_autoplaced yes)
+		(at 119.38 55.88 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3221,8 +2463,7 @@
 		(uuid "22ac89e2-9c5c-44a0-ab93-f4a51686ecdd")
 	)
 	(label "CC2"
-		(at 110.49 85.09 0)
-		(fields_autoplaced yes)
+		(at 71.12 48.26 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3233,8 +2474,7 @@
 		(uuid "3b06c569-139d-4568-bfa5-3e36ce85be54")
 	)
 	(label "VBUS_CONN"
-		(at 132.08 77.47 0)
-		(fields_autoplaced yes)
+		(at 92.71 40.64 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3244,21 +2484,8 @@
 		)
 		(uuid "3e062408-7fda-4617-a5fd-08711a0d98a4")
 	)
-	(label "VBUS_DET"
-		(at 210.82 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Parkinsans Light")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89fd0edf-8b89-4ee0-b734-e4682382a067")
-	)
 	(label "USB_D+"
-		(at 158.75 95.25 0)
-		(fields_autoplaced yes)
+		(at 119.38 58.42 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3269,8 +2496,7 @@
 		(uuid "b187b3ad-be9b-4fb4-9510-54436372ae7e")
 	)
 	(label "CONN_D+"
-		(at 137.16 95.25 0)
-		(fields_autoplaced yes)
+		(at 93.98 58.42 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3281,8 +2507,7 @@
 		(uuid "da823120-52ae-453e-aaf2-7cb282240be2")
 	)
 	(label "CONN_D-"
-		(at 137.16 92.71 0)
-		(fields_autoplaced yes)
+		(at 93.98 55.88 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3294,8 +2519,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 166.37 95.25 0)
-		(fields_autoplaced yes)
+		(at 127 58.42 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3305,24 +2529,9 @@
 		)
 		(uuid "0a86fa76-3f18-4fc5-a780-5a5c2a4ddf5f")
 	)
-	(hierarchical_label "VBUS_DET"
-		(shape output)
-		(at 220.98 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Parkinsans Light")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "6755b231-d02b-4b21-8d17-a8d214a59b5c")
-	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 166.37 92.71 0)
-		(fields_autoplaced yes)
+		(at 127 55.88 0)
 		(effects
 			(font
 				(face "Parkinsans Light")
@@ -3334,7 +2543,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 195.58 74.93 0)
+		(at 156.21 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3342,7 +2551,7 @@
 		(dnp no)
 		(uuid "016e50b0-4f28-4eb6-81c7-2877799d5b74")
 		(property "Reference" "#PWR05"
-			(at 195.58 78.74 0)
+			(at 156.21 41.91 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3352,7 +2561,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 195.58 71.12 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3361,7 +2570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 74.93 0)
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3371,7 +2580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 74.93 0)
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3381,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 195.58 74.93 0)
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3403,8 +2612,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 110.49 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11669dad-6090-44d6-9b1c-fa5a75d4248a")
+		(property "Reference" "U1"
+			(at 112.1411 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 112.1411 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 111.76 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc41d4ae-dc51-41d3-8a68-2b9fe7422a30")
+		)
+		(pin "4"
+			(uuid "35eecd69-0ab5-4a43-a611-9add975e323c")
+		)
+		(pin "2"
+			(uuid "79c40983-3d98-4548-b66d-c329f335a3ed")
+		)
+		(pin "5"
+			(uuid "c9f26ced-6eee-4418-a321-50c690dddaf7")
+		)
+		(pin "6"
+			(uuid "0d0c8362-3146-4781-97ce-1198beb43661")
+		)
+		(pin "3"
+			(uuid "92befbbc-0e6b-4c51-8bbb-1f75e8bf4439")
+		)
+		(instances
+			(project ""
+				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 77.47 270)
+		(at 162.56 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3412,7 +2706,7 @@
 		(dnp no)
 		(uuid "16bd8c96-808a-4163-93f1-85bc7676116d")
 		(property "Reference" "TP3"
-			(at 203.962 75.692 90)
+			(at 164.592 38.862 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3422,7 +2716,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 203.9621 80.01 0)
+			(at 164.5921 43.18 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3433,7 +2727,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 82.55 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3443,7 +2737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 82.55 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3453,7 +2747,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 201.93 77.47 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3463,7 +2757,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 201.93 77.47 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3473,7 +2767,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 201.93 77.47 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3483,7 +2777,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 201.93 77.47 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3506,7 +2800,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 110.49 97.79 270)
+		(at 71.12 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3514,7 +2808,7 @@
 		(dnp no)
 		(uuid "2d1ad2be-160c-4757-bea6-83e8e31ee798")
 		(property "Reference" "TP2"
-			(at 109.982 99.314 90)
+			(at 70.612 62.484 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3524,7 +2818,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 112.5221 100.33 0)
+			(at 73.1521 63.5 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3535,7 +2829,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 110.49 102.87 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3545,7 +2839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 102.87 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3555,7 +2849,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 110.49 97.79 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3565,7 +2859,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 110.49 97.79 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3575,7 +2869,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 110.49 97.79 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3585,7 +2879,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 110.49 97.79 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3608,7 +2902,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 93.98 92.71 0)
+		(at 54.61 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3617,7 +2911,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d214e3d-b87d-40a2-9194-3c44789812ff")
 		(property "Reference" "J1"
-			(at 93.98 69.85 0)
+			(at 54.61 33.02 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3626,7 +2920,7 @@
 			)
 		)
 		(property "Value" "USB4105-GF-A"
-			(at 93.98 72.39 0)
+			(at 54.61 35.56 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3635,7 +2929,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
-			(at 97.79 92.71 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3645,7 +2939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 97.79 92.71 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3655,7 +2949,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 93.98 92.71 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3726,7 +3020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 101.6 0)
+		(at 110.49 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3735,7 +3029,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bc26438-ff8f-4fdb-a7d6-99416421508d")
 		(property "Reference" "#PWR03"
-			(at 149.86 107.95 0)
+			(at 110.49 71.12 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3745,7 +3039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 106.68 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3755,7 +3049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 101.6 0)
+			(at 110.49 64.77 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3765,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 101.6 0)
+			(at 110.49 64.77 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3775,7 +3069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 101.6 0)
+			(at 110.49 64.77 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3797,161 +3091,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:VN10LF")
-		(at 207.01 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60f91812-ea51-4948-858f-f01ddebd216f")
-		(property "Reference" "Q1"
-			(at 212.09 93.98 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMV13XN"
-			(at 212.09 96.52 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 97.155 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV13XN.pdf"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30 V, N-channel Trench MOSFET"
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7af6eb3f-6ec4-4e7a-8a97-823c778ca8e2")
-		)
-		(pin "1"
-			(uuid "8371f100-78e9-465f-aaa7-01ae0619370e")
-		)
-		(pin "3"
-			(uuid "be467d08-300a-4dbd-bcb7-5e79add9069e")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 196.85 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64b50e30-095b-445b-87e6-59434b617956")
-		(property "Reference" "C3"
-			(at 192.7225 99.5045 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 192.7225 101.2825 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 196.85 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 196.85 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed31f2a8-f108-4107-b839-e2f70a9a8d20")
-		)
-		(pin "1"
-			(uuid "2a3eaf6d-bf65-43f7-b911-461036ce53f3")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 110.49 90.17 270)
+		(at 71.12 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3959,7 +3100,7 @@
 		(dnp no)
 		(uuid "67e9a852-b302-4c5c-a770-d026e60c8e60")
 		(property "Reference" "TP1"
-			(at 110.49 88.392 90)
+			(at 71.12 51.562 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3969,7 +3110,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 112.5221 92.71 0)
+			(at 73.1521 55.88 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3980,7 +3121,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 110.49 95.25 0)
+			(at 71.12 58.42 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -3990,7 +3131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 95.25 0)
+			(at 71.12 58.42 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4000,7 +3141,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 110.49 90.17 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4010,7 +3151,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 110.49 90.17 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4020,7 +3161,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 110.49 90.17 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4030,7 +3171,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 110.49 90.17 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4053,7 +3194,7 @@
 	)
 	(symbol
 		(lib_id "MF-NSMF050_8X-2:MF-NSMF050_8X-2")
-		(at 168.91 77.47 0)
+		(at 129.54 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4061,7 +3202,7 @@
 		(dnp no)
 		(uuid "6a17daba-923f-4ff7-9575-15e255f8221f")
 		(property "Reference" "F1"
-			(at 178.054 71.374 0)
+			(at 138.684 34.544 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4070,7 +3211,7 @@
 			)
 		)
 		(property "Value" "MF-NSMF050_8X-2"
-			(at 177.8 73.914 0)
+			(at 138.43 37.084 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4079,7 +3220,7 @@
 			)
 		)
 		(property "Footprint" "picostroke:MFNSMF0508X2"
-			(at 182.88 173.66 0)
+			(at 143.51 136.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4090,7 +3231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf"
-			(at 182.88 273.66 0)
+			(at 143.51 236.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4101,7 +3242,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 15V 500 mA Ih Surface Mount 1812 (4532 Metric), Concave"
-			(at 168.91 77.47 0)
+			(at 129.54 40.64 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4111,7 +3252,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 182.88 473.66 0)
+			(at 143.51 436.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4122,7 +3263,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 182.88 573.66 0)
+			(at 143.51 536.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4133,7 +3274,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF-NSMF050/8X-2"
-			(at 182.88 673.66 0)
+			(at 143.51 636.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4144,7 +3285,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-MF-NSMF050/8X-2"
-			(at 182.88 773.66 0)
+			(at 143.51 736.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4155,7 +3296,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-NSMF050-8X-2?qs=Z%252BL2brAPG1L21dcJeaiVag%3D%3D"
-			(at 182.88 873.66 0)
+			(at 143.51 836.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4166,7 +3307,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 182.88 973.66 0)
+			(at 143.51 936.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4177,7 +3318,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 182.88 1073.66 0)
+			(at 143.51 1036.83 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4204,7 +3345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 121.92 0)
+		(at 54.61 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4213,7 +3354,7 @@
 		(fields_autoplaced yes)
 		(uuid "7db02e60-df0e-41db-833d-95784b77bd86")
 		(property "Reference" "#PWR01"
-			(at 93.98 128.27 0)
+			(at 54.61 91.44 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4223,7 +3364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 127 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4233,7 +3374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 121.92 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4243,7 +3384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 121.92 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4253,7 +3394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 121.92 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4276,7 +3417,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 118.11 82.55 270)
+		(at 78.74 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4284,7 +3425,7 @@
 		(dnp no)
 		(uuid "7e01743d-89a2-4c90-9cb1-f0db76b96e37")
 		(property "Reference" "R1"
-			(at 119.634 78.74 90)
+			(at 80.264 41.91 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4294,7 +3435,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 119.888 80.772 90)
+			(at 80.518 43.942 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4304,7 +3445,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.11 82.55 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4314,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 82.55 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4324,7 +3465,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 118.11 82.55 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4349,154 +3490,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cafe438-8e45-494d-957c-45b5b4479335")
-		(property "Reference" "#PWR07"
-			(at 209.55 86.36 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 213.106 81.28 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5da3c43f-0c57-48d2-8035-34c116791b2d")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1fefbd7-be39-42c9-be5c-4ed73b00dd27")
-		(property "Reference" "R3"
-			(at 204.216 99.06 90)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47k"
-			(at 202.438 98.806 90)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 200.66 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 200.66 100.33 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d49297c-8593-4c2d-aaa0-f2735dc250a6")
-		)
-		(pin "1"
-			(uuid "6bd8ecf8-5452-45c4-9ca7-7d5283873270")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 118.11 85.09 270)
+		(at 78.74 48.26 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4505,7 +3500,7 @@
 		(dnp no)
 		(uuid "a7f2da1a-534c-47f1-bb2f-24b760d3a279")
 		(property "Reference" "R2"
-			(at 119.38 88.646 90)
+			(at 80.01 51.816 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4515,7 +3510,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 119.634 86.868 90)
+			(at 80.264 50.038 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4525,7 +3520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.11 85.09 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4535,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 85.09 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4545,7 +3540,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 118.11 85.09 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4571,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 90.17 118.11 90)
+		(at 50.8 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4579,7 +3574,7 @@
 		(dnp yes)
 		(uuid "adb29e2a-2061-485c-95dc-8aad96b8b57e")
 		(property "Reference" "R7"
-			(at 89.154 120.396 90)
+			(at 49.784 83.566 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4589,7 +3584,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 89.154 116.332 90)
+			(at 49.784 79.502 90)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4599,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 90.17 118.11 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4609,7 +3604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 118.11 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4619,7 +3614,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 90.17 118.11 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4645,7 +3640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 85.09 0)
+		(at 85.09 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4654,7 +3649,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9942197-3347-4754-899a-996de8d84a35")
 		(property "Reference" "#PWR02"
-			(at 124.46 91.44 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4664,7 +3659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 90.17 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4674,7 +3669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 85.09 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4684,7 +3679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 85.09 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4694,7 +3689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 85.09 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4717,7 +3712,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 82.55 0)
+		(at 148.59 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4725,7 +3720,7 @@
 		(dnp no)
 		(uuid "bebdec12-8f3a-43a7-9534-6381674f1cbc")
 		(property "Reference" "C2"
-			(at 190.5 82.55 0)
+			(at 151.13 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4735,7 +3730,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 190.5 85.09 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4745,7 +3740,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 188.9252 86.36 0)
+			(at 149.5552 49.53 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4755,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/upy_gphc_x5r_4v_to_50v-3461255.pdf"
-			(at 187.96 82.55 0)
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4765,7 +3760,7 @@
 			)
 		)
 		(property "Description" "CC0402KRX5R6BB105"
-			(at 187.96 82.55 0)
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4790,83 +3785,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c834255f-b3d6-4d02-9ed7-a7df521efcc4")
-		(property "Reference" "R4"
-			(at 204.978 84.074 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47k"
-			(at 204.978 86.106 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 209.55 85.09 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 85.09 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 85.09 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4249e720-fe0b-42b2-9724-68f11af92134")
-		)
-		(pin "1"
-			(uuid "b059ec78-c73c-4f20-bd94-a411fbdddd51")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 177.8 87.63 0)
+		(at 138.43 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4875,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd450afc-41a2-4cc3-84aa-98d179384005")
 		(property "Reference" "#PWR04"
-			(at 177.8 93.98 0)
+			(at 138.43 57.15 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4885,7 +3805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 92.71 0)
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4895,7 +3815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 87.63 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4905,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 87.63 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4915,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 87.63 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -4937,97 +3857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 149.86 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e19770db-8546-4224-9c4c-b437460558b1")
-		(property "Reference" "U1"
-			(at 150.622 86.36 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 150.622 88.392 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 151.13 99.06 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 151.13 100.965 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "1c75f51b-c24f-4b4e-9485-bb0faf29a580")
-		)
-		(pin "1"
-			(uuid "5f6d61ab-934e-41fd-8e76-c2bae53cb364")
-		)
-		(pin "4"
-			(uuid "f193d692-4806-498b-a944-487c5b678b16")
-		)
-		(pin "2"
-			(uuid "cca7cc8e-5942-4eea-b4cb-8d9450757880")
-		)
-		(pin "5"
-			(uuid "563f0496-2f66-42e3-8a42-8085decbc7b3")
-		)
-		(pin "3"
-			(uuid "15c7e3f9-e9cd-47d9-b9bf-85e0f0b89def")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 167.64 82.55 0)
+		(at 128.27 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5036,7 +3867,7 @@
 		(dnp no)
 		(uuid "f696d723-f3fb-4596-9346-02f287051805")
 		(property "Reference" "C1"
-			(at 165.354 82.55 0)
+			(at 125.984 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -5046,7 +3877,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 165.354 85.09 0)
+			(at 125.984 48.26 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -5056,7 +3887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 166.6748 86.36 0)
+			(at 127.3048 49.53 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -5066,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
-			(at 167.64 82.55 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -5076,7 +3907,7 @@
 			)
 		)
 		(property "Description" "MMASL105SB7104MFNA18"
-			(at 167.64 82.55 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(face "Parkinsans Light")
@@ -5095,78 +3926,6 @@
 			(project "pico_stroke_controller"
 				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffce84bc-410b-49e0-9523-0b35b2a0fca6")
-		(property "Reference" "#PWR06"
-			(at 207.01 114.3 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 113.03 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(face "Parkinsans Light")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0328d9d3-1562-4bb0-aaf4-9485a61eda41")
-		)
-		(instances
-			(project "pico_stroke_controller"
-				(path "/70641d1d-bfb0-4aaa-b5de-9843f906b606/969c0764-0844-4bc9-9443-cf383a941ba9"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)

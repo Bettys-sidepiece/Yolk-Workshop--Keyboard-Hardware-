@@ -19,4 +19,5 @@
   (lib (name "RN4871_MCH")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/RN4871_MCH.kicad_sym")(options "")(descr ""))
   (lib (name "RNBD350")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/RNBD350.kicad_sym")(options "")(descr ""))
   (lib (name "FFC2B35-50-G_REVA2")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/FFC2B35-50-G_REVA2.kicad_sym")(options "")(descr ""))
+  (lib (name "IS31FL3743A")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/IS31FL3743A-QULS4-TR.kicad_sym")(options "")(descr ""))
 )

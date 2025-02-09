@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "picostroke")(type "KiCad")(uri "/home/bettysidepiece/Documents/Projects/Yolk Keyboard/pico_stroke/Components/picostroke.pretty")(options "")(descr ""))
+  (lib (name "picostroke")(type "KiCad")(uri "/home/bettysidepiece/Documents/Projects/Yolk Keyboard - Hardware/Yolk Workshop - Germinal Disc/Components/picostroke.pretty")(options "")(descr ""))
   (lib (name "pico_bldc")(type "KiCad")(uri "/home/bettysidepiece/Documents/Projects/Pico_BLDC_Controller/Pico_BLDC_Components/pico_bldc.pretty")(options "")(descr ""))
 )

@@ -272,6 +272,12 @@
 		(uuid "de786989-c631-42f9-8396-4b3c9b1059c3")
 	)
 	(pad "8" smd rect
+		(at 1.238 1.225)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6fb8d6c9-1b45-4c35-839b-3b72715b16b1")
+	)
+	(pad "8" smd rect
 		(at 1.488 1.4)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -296,6 +302,12 @@
 		(uuid "4320c903-8d2c-4dfc-a1cc-319ffb68939e")
 	)
 	(pad "12" smd rect
+		(at 1.238 -1.225)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5ee9346e-7e7e-406d-ae7f-bee080a9f617")
+	)
+	(pad "12" smd rect
 		(at 1.488 -1.4)
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -318,18 +330,6 @@
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c582bdf1-0357-4116-b063-bef806d9292b")
-	)
-	(pad "16" smd rect
-		(at 1.238 -1.225)
-		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "5ee9346e-7e7e-406d-ae7f-bee080a9f617")
-	)
-	(pad "17" smd rect
-		(at 1.238 1.225)
-		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "6fb8d6c9-1b45-4c35-839b-3b72715b16b1")
 	)
 	(model "TPS630701RNMR.stp"
 		(offset
